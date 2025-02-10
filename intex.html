@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Supermarket List</h1>
+    
     <div class="container">
-        <h1>Supermarket List 🛒</h1>
-        <div class="input-group">
-            <input type="text" id="productName" placeholder="Enter product name" />
-            <button onclick="addProduct()" class="add-btn">➕ Add</button>
-        </div>
-        <h2>Shopping List</h2>
-        <ul id="shoppingList"></ul>
+        <input type="text" id="itemInput" placeholder="Add a new item...">
+        <button onclick="addItem()">Add</button>
     </div>
+
+    <ul id="itemList"></ul>
 
     <script src="script.js"></script>
 </body>
